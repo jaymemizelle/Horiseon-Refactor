@@ -44,9 +44,11 @@ header ul li {
     margin-left: 25px;
 }
 
+/*I added this "hover" feature over the navbar links because I want the user to know it is a link so when they hover their mouse over it, it now changes color*/
 header a:hover {
     color:skyblue;
 }
+
 
 h2 {
     margin-bottom: 20px;
