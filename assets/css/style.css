@@ -8,9 +8,9 @@ body {
     background-color: #d9dcd6;
 }
 
-/*I changed the header selector from a class to an element tag in order to make the code more semantic/dry/accessible. I also eliminated "div" as a selector becuase it wasn't really doing anythng. The only "div" selector that was doing anything, I changed to "nav" */
 
 
+/*--Header--*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,10 +23,12 @@ header h1 {
     font-size: 48px;
 }
 
+/*--Styles the "seo" in "Horiseon" header--*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/*--Header Navigation--*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -44,7 +46,7 @@ header ul li {
     margin-left: 25px;
 }
 
-/*I added this "hover" feature over the navbar links because I want the user to know it is a link so when they hover their mouse over it, it now changes color*/
+/* "Hover" feature over the navbar links because I want the user to know it is a link (so now when they hover their mouse over it, it changes color */
 header a:hover {
     color:skyblue;
 }
@@ -71,8 +73,7 @@ p {
 }
 
 
-/*This hero class styles the main background image for the site*/
-
+/*--This hero class styles the main background image for the site--*/
 .hero {
     height: 800px;
     width: 100%;
@@ -93,6 +94,7 @@ p {
     margin-left: 25px;
 }
 
+/* --Main Content-- */
 .content {
     width: 75%;
     display: inline-block;
@@ -100,8 +102,10 @@ p {
 }
 
 
-/*I changed the names of the classes that were used below this line in order to consolidate the css as there was much repeating code in this section.*/
+/*--I changed the names of the classes that were used below this line in order to consolidate the css as there was much repeating code in this section.--*/
 
+
+/*--Aside (Sidebar)--*/
 .side-bar {
     margin-right: 20px;
     padding: 20px;
@@ -113,18 +117,21 @@ p {
     background-color: #2589bd;
 }
 
+/*--Items Within Sidebar--*/
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*--Icons in Sidebar--*/
 .side-bar img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.article {
+/*--Items Within Main Content--*/
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -133,12 +140,12 @@ p {
     color: #ffffff;
 }
 
+/*--images in main content--*/
 .content img {
     max-height: 200px;
 }
 
-/*I changed the footer from a class to an element tag in order to make the code more semantic/dry/accessible.*/
-
+/*--footer--*/
 footer {
     padding: 30px;
     clear: both;
@@ -146,6 +153,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
